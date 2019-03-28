@@ -2,16 +2,18 @@
   "name": "mini-curso-docker",
   "description": "Como começar a desenvolver usando Docker",
   "author": "profhelder.pereira@fiap.com.br",
+  "user": "foo",
+  "password": "bar",
   "templates" : {
       "special" : "simple.tpl"
   },
   "pause_msg": "Paused !!!",
   "sections": [
-    {"section":"Conceitos"},
-    {"section":"Running"},
-    {"section":"Dockerfiles"},
-    {"section":"Debbuging"},
-    {"section":"Webhooks"},
-    {"section":"End"}
+    {"section":"01_Conceitos"},
+    {"section":"02_Running"},
+    {"section":"03_Dockerfiles"},
+    {"section":"04_Debbuging"},
+    {"section":"05_Webhooks"},
+    {"section":"99_End"}
   ]
 }
